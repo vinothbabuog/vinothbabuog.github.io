@@ -1,209 +1,315 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-
 <head>
   <meta charset="utf-8">
-  <meta content="width=device-width, initial-scale=1.0" name="viewport">
-  <title>Vinoth Babu | Data Scientist | ML Engineer | Portfolio</title>
-  <meta content="" name="description">
-  <meta content="" name="keywords">
-
-  <!-- Favicons -->
-  <link href="assets/img/favicon.png" rel="icon">
-  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
-
-  <!-- Fonts -->
-  <link href="https://fonts.googleapis.com" rel="preconnect">
-  <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
-
-  <!-- Vendor CSS Files -->
-  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
-  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
-  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
-  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
-
-  <!-- Main CSS File -->
-  <link href="assets/css/main.css" rel="stylesheet">
-
-  <!-- =======================================================
-  * Template Name: iPortfolio
-  * Template URL: https://bootstrapmade.com/iportfolio-bootstrap-portfolio-websites-template/
-  * Updated: Jun 29 2024 with Bootstrap v5.3.3
-  * Author: BootstrapMade.com
-  * License: https://bootstrapmade.com/license/
-  ======================================================== -->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#ffffff">
+  <meta name="description" content="Vinoth Babu O G — Enterprise Data Architect designing scalable Azure, Databricks, lakehouse and real-time data platforms.">
+  <title>Vinoth Babu O G | Enterprise Data Architect</title>
+  <link rel="icon" href="assets/img/favicon.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/style.css">
 </head>
-
-<body class="index-page" style="font-family: verdana">
-
-  <header id="header" class="header dark-background d-flex flex-column">
-    <i class="header-toggle d-xl-none bi bi-list"></i>
-
-    <div class="profile-img">
-      <img src="assets/img/vinoth_1.jpg" alt="" class="img-fluid rounded-circle">
-    </div>
-
-    <a href="index.html" class="logo d-flex align-items-center justify-content-center">
-      <!-- Uncomment the line below if you also wish to use an image logo -->
-      <!-- <img src="assets/img/logo.png" alt=""> -->
-      <h1 class="sitename" style="font-family: verdana">Vinoth Babu</h1>
+<body>
+<header class="site-header">
+  <div class="nav-wrap">
+    <a class="brand" href="#home" aria-label="Vinoth Babu home">
+      <span class="brand-mark">VB</span><span class="brand-copy"><strong>Vinoth Babu O G</strong><small>Lead Engineer & Enterprise Data Architect</small></span>
     </a>
-
-    <div class="social-links text-center">
-      <a href="https://www.linkedin.com/in/vinothbabuog/" class="linkedin"><i class="bi bi-linkedin"></i></a>
-    </div>
-
-    <nav id="navmenu" class="navmenu">
-      <ul>
-        <li><a href="#me" class="active"><i class="bi bi-house navicon" style="font-family: verdana"></i>Home</a></li>
-        <li><a href="#about"><i class="bi bi-person navicon"></i> About</a></li>
-        <!--<li><a href="#resume"><i class="bi bi-file-earmark-text navicon"></i> Resume</a></li>-->
-        <li><a href="#portfolio"><i class="bi bi-images navicon"></i> Portfolio</a></li>
-        <!--<li><a href="#services"><i class="bi bi-hdd-stack navicon"></i> Services</a></li>
-        <li><a href="#contact"><i class="bi bi-envelope navicon"></i> Contact</a></li>-->
-      </ul>
+    <button class="menu-toggle" aria-label="Open navigation" aria-expanded="false">☰</button>
+    <nav class="main-nav" aria-label="Main navigation">
+      <a class="active" href="#home">Home</a>
+      <a href="#about">About</a>
+      <a href="#expertise">Expertise</a>
+      <a href="#experience">Experience</a>
+      <a href="#projects">Projects</a>
+      <a href="#technology">Technology</a>
+      <a href="#insights">Insights</a>
+      <a href="#education">Education</a>
+      <a href="#contact">Contact</a>
     </nav>
+    <a class="nav-resume" href="assets/documents/Vinoth_Babu_Data_Architect_Resume.pdf" target="_blank" rel="noopener">↓ <span>Resume</span></a>
+  </div>
+</header>
 
-  </header>
-
-  <main class="main">
-
-    <!-- Hero Section -->
-    <section id="me" class="hero section dark-background">
-
-      <img src="assets/img/A7405678_1.png" alt="" data-aos="fade-in" class="">
-
-      <div class="container" data-aos="fade-up" data-aos-delay="100">
-        <h2>Vinoth Babu O G</h2>
-        <p>I'm <span class="typed" data-typed-items="Lead Engineer, Data Scientist, ML Engineer, Consultant - Data Scientist / ML Engineer">Lead Engineer</span><span class="typed-cursor typed-cursor--blink" aria-hidden="true"></span><span class="typed-cursor typed-cursor--blink" aria-hidden="true"></span></p>
+<main>
+<section class="hero section-shell" id="home">
+  <div class="hero-copy">
+    <p class="eyebrow">ENTERPRISE DATA ARCHITECT</p>
+    <h1>Architecting Scalable Data Platforms for <em>Enterprise Intelligence.</em></h1>
+    <p class="hero-lede">Data Architect and technology leader with 17+ years across enterprise technology, backend engineering and modern data platforms. Experienced in data architecture strategy, modernization roadmaps, data modeling, governance and scalable Azure data solutions.</p>
+    <div class="hero-actions"><a class="button primary" href="#projects">Explore My Work <span>→</span></a><a class="button secondary" href="assets/documents/Vinoth_Babu_Data_Architect_Resume.pdf" target="_blank" rel="noopener">↓ &nbsp; Download Resume</a></div>
+    <div class="hero-note"><span class="note-line"></span> STRATEGY · ARCHITECTURE · ENGINEERING</div>
+  </div>
+  <div class="architecture-card" aria-label="Azure and Databricks lakehouse architecture diagram">
+    <div class="diagram-top"><span class="azure-symbol">A</span><span class="db-symbol">▱</span><strong>Azure + Databricks Lakehouse</strong></div>
+    <div class="diagram-flow">
+      <div class="sources">
+        <b>Data Sources</b><span>▤ &nbsp; Transactional</span><span>☁ &nbsp; SaaS &amp; APIs</span><span>⌁ &nbsp; Streaming Events</span><span>▧ &nbsp; Files</span>
       </div>
-
-    </section><!-- /Hero Section -->
-
-    <!-- About Section -->
-    <section id="about" class="about section">
-
-      <!-- Section Title -->
-      <div class="container section-title" data-aos="fade-up">
-        <h2>About Me</h2>
-        
-        <p>With over 16 years of experience in software engineering and backend systems, and recent hands-on experience in machine learning and data science, I am eager to contribute my expertise to innovative, data-driven research and product development efforts.</p>
-        <br>
-        <p>
-        In my most recent role as Lead Engineer, I transitioned into the AI/ML space by leading the design and deployment of a real-time churn prediction model and a personalized recommendation system for a leading casual mobile game. These solutions, built using Python, scikit-learn, SHAP, and deployed with FastAPI and Vertex AI, improved player engagement and enabled product teams to make proactive design decisions. I also developed a Monte Carlo–based simulation model to support A/B testing and game feature optimization before launch. </p>
-          <br>
-        <p>
-        This shift was fueled by a deep interest in applying data science to real-world problems. I’ve since pursued specialized training, built end-to-end ML systems, and integrated explainability into my workflow—combining rigorous engineering principles with modern AI methodologies. I am particularly excited by the opportunity to contribute to research and experimentation at scale, and to drive data-informed strategies within a collaborative, intellectually curious team. </p>
-<br>
-        <p>
-        I am confident that my blend of technical leadership, product intuition, and applied machine learning experience would allow me to add value to your data science and research efforts from day one. I welcome the opportunity to discuss how I can contribute to your team’s goals.
-          </p>        
-      </div><!-- End Section Title -->
-    </section><!-- /About Section -->
-
-    <!-- Portfolio Section -->
-    <section id="portfolio" class="portfolio section light-background">
-
-      <!-- Section Title -->
-      <div class="container section-title" data-aos="fade-up">
-        <h2>Portfolio</h2>
-        <p>I’m a Lead Engineer turned Data Scientist with 16+ years of experience delivering scalable backend systems and data-driven innovations, primarily in the gaming industry. Recently focused on machine learning, I’ve developed real-time recommendation systems, churn prediction models, and end-to-end MLOps pipelines using Python, SQL, and Google Vertex AI. My portfolio reflects a passion for using data to enhance player experiences, optimize engagement, and drive business impact through intelligent, cloud-native solutions.</p>
-      </div><!-- End Section Title -->
-
-      <div class="container">
-
-        <div class="isotope-layout" data-default-filter="*" data-layout="masonry" data-sort="original-order">
-
-         
-
-          <div class="row gy-4 isotope-container" data-aos="fade-up" data-aos-delay="200">
-
-            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-app">
-              <div class="portfolio-content h-100">
-                <img src="assets/img/portfolio/app-1.jpg" class="img-fluid" alt="">
-                <div class="portfolio-info">
-                  <h4>Customer Churn</h4>
-                  <p>Customer Churn</p>
-                  <a href="assets/img/portfolio/churn.png" title="App 1" data-gallery="portfolio-gallery-app" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
-                  <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
-                </div>
-              </div>
-            </div><!-- End Portfolio Item -->
-
-            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-product">
-              <div class="portfolio-content h-100">
-                <img src="assets/img/portfolio/app-2.jpg" class="img-fluid" alt="">
-                <div class="portfolio-info">
-                  <h4>Sales Forecast</h4>
-                  <p>Sales Forecasting</p>
-                  <a href="assets/img/portfolio/app-2.jpg" title="App 2" data-gallery="portfolio-gallery-app" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
-                  <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
-                </div>
-              </div>
-            </div><!-- End Portfolio Item -->
-
-            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-branding">
-              <div class="portfolio-content h-100">
-                <img src="assets/img/portfolio/app-3.jpg" class="img-fluid" alt="">
-                <div class="portfolio-info">
-                  <h4>Recomendation Engine</h4>
-                  <p>Recomendation Engine</p>
-                  <a href="assets/img/portfolio/app-3.jpg" title="App 3" data-gallery="portfolio-gallery-app" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
-                  <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
-                </div>
-              </div>
-            </div><!-- End Portfolio Item -->
-
-          </div><!-- End Portfolio Container -->
-
+      <div class="flow-arrow">→</div>
+      <div class="lakehouse">
+        <div class="layers">
+          <div class="layer bronze"><i>▤</i><b>Bronze</b><small>(Ingest)</small></div>
+          <span class="layer-arrow">→</span>
+          <div class="layer silver"><i>▱</i><b>Silver</b><small>(Curate)</small></div>
+          <span class="layer-arrow">→</span>
+          <div class="layer gold"><i>▥</i><b>Gold</b><small>(Serve)</small></div>
         </div>
-
+        <div class="controls"><span>◈ Data Quality</span><span>◇ Governance</span><span>⌁ Lineage</span><span>♙ Security</span></div>
       </div>
+      <div class="flow-arrow">→</div>
+      <div class="outcomes"><b>Outcomes</b><span>▥ &nbsp; Analytics &amp; BI</span><span>✣ &nbsp; AI / ML &amp; RAG</span><span>♧ &nbsp; Personalization</span><span>⬡ &nbsp; Applications</span></div>
+    </div>
+    <div class="diagram-caption">A governed, scalable foundation from source systems to business value</div>
+  </div>
+</section>
 
-    </section><!-- /Portfolio Section -->
+<section class="metrics section-shell" aria-label="Career highlights">
+  <div><span class="metric-icon">▦</span><strong>17+</strong><small>Years in Technology</small></div>
+  <div><span class="metric-icon">▱</span><strong>4</strong><small>Flagship Projects</small></div>
+  <div><span class="metric-icon">▧</span><strong>85%</strong><small>Fewer Ingestion Failures</small></div>
+  <div><span class="metric-icon">⚙</span><strong>90%</strong><small>Less Manual Engineering Overhead</small></div>
+  <div><span class="metric-icon">ϟ</span><strong>Sub-second</strong><small>Streaming Processing Windows</small></div>
+</section>
 
+<section class="expertise section-shell" id="expertise">
+  <div class="section-intro"><p class="eyebrow">WHAT I DO</p><h2>Core Expertise</h2><p>Enterprise data architecture from strategy and modeling through integration, governance and scalable platform delivery.</p><span class="blue-rule"></span></div>
+  <div class="expertise-grid">
+    <article class="expertise-item"><span>▱</span><b>Enterprise Data<br>Architecture</b></article>
+    <article class="expertise-item"><span>⌖</span><b>Data Strategy &amp;<br>Roadmap Planning</b></article>
+    <article class="expertise-item"><span>▤</span><b>Data Modeling &amp;<br>Lakehouse Design</b></article>
+    <article class="expertise-item"><span>⌘</span><b>Data Integration<br>&amp; CDC</b></article>
+    <article class="expertise-item"><span>ϟ</span><b>Event-Driven &amp;<br>Streaming Architecture</b></article>
+    <article class="expertise-item"><span>♢</span><b>Governance, Security<br>&amp; Data Quality</b></article>
+    <article class="expertise-item"><span>◇</span><b>Data Mesh &amp;<br>Metadata Management</b></article>
+    <article class="expertise-item"><span>◫</span><b>Data Lifecycle &amp;<br>Performance</b></article>
+    <article class="expertise-item"><span>▦</span><b>AI / ML Data<br>Architecture</b></article>
+  </div>
+</section>
 
-  </main>
-  <footer id="footer" class="footer position-relative light-background">
-
-    <div class="container">
-      <div class="copyright text-center ">
-        <!--<p>© <span>Copyright</span> <strong class="px-1 sitename">iPortfolio</strong> <span>All Rights Reserved</span></p>-->
+<section class="experience-section" id="experience">
+  <div class="section-shell">
+    <div class="section-heading">
+      <div>
+        <p class="eyebrow">CAREER JOURNEY</p>
+        <h2>Experience &amp; Leadership</h2>
       </div>
-      <div class="credits">
-        <!-- All the links in the footer should remain intact. -->
-        <!-- You can delete the links only if you've purchased the pro version. -->
-        <!-- Licensing information: https://bootstrapmade.com/license/ -->
-        <!-- Purchase the pro version with working PHP/AJAX contact form: [buy-url] -->
-        Designed by <a href="#">BootstrapMade</a>
+      <p class="heading-aside">17+ years across enterprise technology, backend systems and data architecture.</p>
+    </div>
+    <div class="timeline">
+      <article><span class="timeline-dot"></span>
+        <div class="timeline-date">DEC 2025 — PRESENT</div>
+        <div>
+          <h3>Lead Engineer &amp; Data Architect</h3>
+          <p class="company">Gold Coast IT Solutions · Chennai</p>
+          <p>Defined and led Azure-native enterprise data architecture patterns across ingestion, integration,
+            transformation, lakehouse, analytics, governance and security.</p>
+          <p>Designed metadata-driven Azure Data Factory orchestration and CDC-based incremental processing, alongside
+            reusable event-driven integration patterns using ADF, Databricks, Event Grid, Logic Apps and Delta Lake.</p>
+          <p>Designed ACID-compliant Delta Lake platforms and dimensional models using Fact/Dimension and Star Schema
+            patterns. Established architecture standards for data quality, metadata, observability, CI/CD and access
+            security.</p>
+          <p class="experience-impact"><strong>Architecture impact:</strong> 85% reduction in ingestion failures and 90%
+            reduction in manual data engineering overhead through automated validation, event-driven orchestration and
+            adaptive schema-drift handling.</p>
+        </div>
+      </article>
+      <article><span class="timeline-dot"></span>
+        <div class="timeline-date">SEP 2014 — APR 2025</div>
+        <div>
+          <h3>Lead Engineer — Backend &amp; Data</h3>
+          <p class="company">Scopely Pvt Ltd · Bangalore</p>
+          <p>Architected and scaled Azure-native data platforms supporting high-throughput gameplay telemetry, economy
+            tracking and LiveOps workloads, reducing operational analytics latency from hours to seconds.</p>
+          <p>Designed resilient real-time streaming architecture using Spark Structured Streaming, stateful
+            checkpointing, watermarking and idempotent processing. Built sessionization and aggregation frameworks
+            processing thousands of telemetry events per second.</p>
+          <p>Designed a real-time analytics data loop for behavioral features, churn propensity scoring and
+            collaborative recommendations. Also delivered event-driven experimentation capabilities and a Python-based
+            data quality rules engine with lineage and SLA observability.</p>
+          <p>Partnered with product, analytics, marketing and engineering stakeholders on platform modernization
+            roadmaps, architecture reviews and technology strategy.</p>
+          <p class="experience-impact"><strong>Business impact:</strong> 15% improvement in retention campaign
+            effectiveness, 12% increase in player session duration and 10% improvement in Day-7 retention. Streaming
+            processing latency reached sub-second windows.</p>
+        </div>
+      </article>
+      <article><span class="timeline-dot"></span>
+        <div class="timeline-date">JUN 2009 — SEP 2014</div>
+        <div>
+          <h3>Senior Software Engineer</h3>
+          <p class="company">Clarion Technologies Pvt Ltd · Bangalore</p>
+          <p>Built backend applications, integrations, reporting capabilities and business workflows for enterprise
+            clients.</p>
+        </div>
+      </article>
+      <article><span class="timeline-dot"></span>
+        <div class="timeline-date">FEB 2008 — MAY 2009</div>
+        <div>
+          <h3>Software Engineering</h3>
+          <p class="company">ekgaon Technologies Pvt Ltd · Madurai</p>
+          <p>Contributed to application development, integrations and technical delivery.</p>
+        </div>
+      </article>
+    </div>
+  </div>
+</section>
+
+<section class="about section-shell" id="about">
+  <div class="about-heading"><p class="eyebrow">ABOUT</p><h2>Turning complex data ecosystems into clear architecture.</h2></div>
+  <div class="about-copy">
+    <p>I am a Data Architect and technology leader with 17+ years across enterprise technology, backend engineering and modern data platforms. I define enterprise data architecture patterns, shape data strategy and modernization roadmaps, and translate business requirements into secure, governed and scalable data solutions.</p>
+    <p>My experience spans data modeling, Azure-native integration, CDC, lakehouse and streaming architecture, governance, observability and AI/ML data platforms. I combine architecture leadership with hands-on engineering delivery and cross-functional stakeholder management.</p>
+    <div class="about-principles"><span>01 &nbsp; Business-aligned architecture</span><span>02 &nbsp; Governed by design</span><span>03 &nbsp; Scalable and resilient platforms</span></div>
+  </div>
+</section>
+
+<section class="projects-section" id="projects">
+  <div class="section-shell">
+    <div class="section-heading">
+      <div>
+        <p class="eyebrow">FEATURED PROJECTS</p>
+        <h2><span style="white-space: nowrap;">Architecture in Action</span></h2>
+      </div><a href="#contact" class="text-link">Discuss an architecture challenge →</a>
+    </div>
+    <div class="project-grid">
+      <article class="project-card">
+        <div class="project-art art-ingest">
+          <div class="data-flow-line line-a"></div>
+          <div class="data-flow-line line-b"></div>
+          <div class="visual-source"><span class="visual-icon">▤</span><b>DATA SOURCES</b><small>Vendors · APIs ·
+              Files</small></div>
+          <span class="visual-arrow">→</span>
+          <div class="visual-stack"><span>BRONZE</span><span>SILVER</span><span>GOLD</span></div>
+          <div class="visual-caption">ADLS GEN2 · EVENT GRID · AZURE FUNCTIONS · DATABRICKS</div>
+        </div>
+        <div class="project-body">
+          <p class="project-kicker">01 / DATA ARCHITECTURE</p>
+          <h3>Enterprise Multi-Vendor Data Platform</h3>
+          <p>Designed an event-driven Azure Medallion Lakehouse that decouples ingestion, processing, schema management
+            and analytics using Event Grid, Azure Functions, ADLS Gen2, Databricks and Delta Lake. Metadata-driven
+            notebooks route data through Bronze, Silver and Gold layers.</p>
+          <div class="tags"><span>Event Grid</span><span>Azure Functions</span><span>ADLS
+              Gen2</span><span>Databricks</span><span>Delta Lake</span></div>
+        </div>
+      </article>
+      <article class="project-card">
+        <div class="project-art art-stream">
+          <div class="stream-orbit orbit-one"></div>
+          <div class="stream-orbit orbit-two"></div>
+          <div class="stream-source"><span>EVENT HUBS</span><b>•••</b></div><span class="stream-arrow">→</span>
+          <div class="stream-engine"><span class="engine-symbol">ϟ</span><b>SPARK</b><small>STRUCTURED STREAMING</small>
+          </div>
+          <div class="visual-caption">REAL-TIME EVENT PROCESSING</div>
+        </div>
+        <div class="project-body">
+          <p class="project-kicker">02 / REAL-TIME ANALYTICS</p>
+          <h3>Real-Time Player Event Streaming</h3>
+          <p>Architected an Azure Event Hubs and Spark Structured Streaming platform processing thousands of telemetry
+            events per second, with sessionization, aggregation and sub-second operational analytics.</p>
+          <div class="tags"><span>Event
+              Hubs</span><span>PySpark</span><span>Watermarking</span><span>Checkpointing</span></div>
+        </div>
+      </article>
+      <article class="project-card">
+        <div class="project-art art-ai">
+          <div class="ai-network">
+            <span class="ai-node n1"></span><span class="ai-node n2"></span><span class="ai-node n3"></span><span
+              class="ai-node n4"></span><span class="ai-node n5"></span><span class="ai-core">AI</span>
+            <i class="ai-link l1"></i><i class="ai-link l2"></i><i class="ai-link l3"></i><i class="ai-link l4"></i>
+          </div>
+          <div class="ai-labels"><span>BEHAVIOURAL SIGNALS</span><b>→</b><span>PREDICTIVE MODELS</span></div>
+          <div class="visual-caption">CHURN INTELLIGENCE + PERSONALIZATION</div>
+        </div>
+        <div class="project-body">
+          <p class="project-kicker">03 / AI &amp; PERSONALIZATION</p>
+          <h3>Churn Intelligence &amp; Recommendation</h3>
+          <p>Designed a real-time analytics data loop that transforms player events into behavioral features for churn
+            classification and collaborative recommendations, improving retention campaign effectiveness by 15%.</p>
+          <div class="tags"><span>Behavioral
+              Features</span><span>PySpark</span><span>MLflow</span><span>Recommendations</span></div>
+        </div>
+      </article>
+      <article class="project-card">
+        <div class="project-art art-quality">
+          <div class="quality-panel">
+            <div class="quality-head"><span>DATA HEALTH</span><b>✓</b></div>
+            <div class="quality-bars"><i></i><i></i><i></i><i></i><i></i><i></i><i></i></div>
+            <div class="quality-status"><span>FRESHNESS</span><span>COMPLETENESS</span><span>ACCURACY</span></div>
+          </div>
+          <div class="visual-caption">OBSERVABILITY · LINEAGE · SLA MONITORING</div>
+        </div>
+        <div class="project-body">
+          <p class="project-kicker">04 / TRUST &amp; OBSERVABILITY</p>
+          <h3>Data Quality &amp; Observability Framework</h3>
+          <p>Built a modular Python rules engine for Delta Lake freshness, correctness and completeness checks, with
+            metadata-driven execution logs, anomaly forecasting and asynchronous Event Grid alerting.</p>
+          <div class="tags"><span>Python Rules Engine</span><span>Delta Lake</span><span>Event Grid</span><span>SLA
+              Monitoring</span></div>
+        </div>
+      </article>
+    </div>
+  </div>
+</section>
+
+<section class="education-section section-shell" id="education">
+  <div class="section-heading"><div><p class="eyebrow">EDUCATION</p><h2>Academic Background</h2></div></div>
+  <div class="education-card"><div><h3>Bachelor of Science — Mathematics</h3><p>Madurai Kamaraj University · Madurai</p></div><span>1997 — 2000</span></div>
+</section>
+
+<section class="technology" id="technology">
+  <div class="section-shell">
+    <div class="section-heading">
+      <div>
+        <p class="eyebrow">TECHNOLOGY ECOSYSTEM</p>
+        <h2>Tools behind the architecture</h2>
       </div>
     </div>
+    <div class="tech-groups">
+      <div><b>Architecture Capabilities</b>
+        <p>Enterprise Data Architecture · Data Strategy &amp; Roadmaps · Data Modeling · Lakehouse &amp; Medallion · Data
+          Mesh · Event-Driven &amp; Streaming Architecture · Data Integration · CDC · Data Lifecycle · Performance
+          Optimization</p>
+      </div>
+      <div><b>Cloud &amp; Data Platforms</b>
+        <p>Azure · Azure Databricks · ADLS Gen2 · Azure Synapse Analytics · Azure SQL · BigQuery · MySQL · MongoDB</p>
+      </div>
+      <div><b>Data Engineering &amp; Orchestration</b>
+        <p>Apache Spark · PySpark · Delta Lake · Structured Streaming · Azure Data Factory · Airflow · dbt</p>
+      </div>
+      <div><b>Integration &amp; Application Services</b>
+        <p>Event Hubs · Event Grid · Service Bus · Azure Functions · Logic Apps · Kafka · FastAPI · REST APIs</p>
+      </div>
+      <div><b>Governance, Security &amp; Reliability</b>
+        <p>Data Quality · Metadata Management · Data Lineage · Auditability · RBAC · Observability · Schema Drift Handling ·
+          CI/CD · Monitoring · Log Analytics</p>
+      </div>
+      <div><b>AI / ML &amp; Development</b>
+        <p>MLflow · Recommendation Systems · Churn Prediction · Feature Engineering · SHAP · Real-Time Scoring · A/B Testing
+          · Python · SQL · Docker · Git · Azure DevOps · RAG · LLM-based Agents</p>
+      </div>
+    </div>
+  </div>
+  
+</section>
+<section class="insights-section section-shell" id="insights">
+  <div class="section-heading"><div><p class="eyebrow">TECHNICAL INSIGHTS</p><h2>Architecture in Practice</h2><p class="heading-aside">Project case studies and architecture perspectives across enterprise data platforms.</p></div></div>
+  <div class="insight-grid">
+    <article class="insight-card"><p class="insight-kicker">01 / PROJECT CASE STUDY</p><h3>Designing a Metadata-Driven Multi-Vendor Lakehouse</h3><p>Event-driven Azure Medallion Lakehouse architecture, metadata-driven Databricks processing and adaptive schema evolution.</p><div class="insight-meta"><span>Azure · ADLS Gen2 · Databricks</span><a href="articles/metadata-driven-lakehouse.html">Read more <span aria-hidden="true">→</span></a></div></article>
+    <article class="insight-card"><p class="insight-kicker">02 / PROJECT CASE STUDY</p><h3>Architecting Real-Time Event Streaming Platforms</h3><p>High-throughput Event Hubs and Spark Structured Streaming for sessionized player telemetry and sub-second analytics.</p><div class="insight-meta"><span>Event Hubs · PySpark</span><a href="articles/real-time-streaming.html">Read more <span aria-hidden="true">→</span></a></div></article>
+    <article class="insight-card"><p class="insight-kicker">03 / PROJECT CASE STUDY</p><h3>Data Quality, Observability &amp; SLA Monitoring</h3><p>A reusable Python rules engine, Delta Lake validation, metadata-driven logs and asynchronous alerting.</p><div class="insight-meta"><span>Python · Delta Lake · Event Grid</span><a href="articles/data-quality-observability.html">Read more <span aria-hidden="true">→</span></a></div></article>
+    <article class="insight-card"><p class="insight-kicker">04 / PROJECT CASE STUDY</p><h3>Churn Intelligence &amp; Recommendation Architecture</h3><p>Behavioral feature pipelines, real-time churn scoring and collaborative recommendations tied to measurable outcomes.</p><div class="insight-meta"><span>PySpark · MLflow · AI/ML</span><a href="articles/churn-recommendation.html">Read more <span aria-hidden="true">→</span></a></div></article>
+    <article class="insight-card"><p class="insight-kicker">05 / ARCHITECTURE PERSPECTIVE</p><h3>Enterprise Data Governance, Security &amp; Lineage</h3><p>Architecture principles for metadata, ownership, RBAC, auditability, lineage and governed data access.</p><div class="insight-meta"><span>Metadata · RBAC · Lineage</span><a href="articles/governance-security-lineage.html">Read more <span aria-hidden="true">→</span></a></div></article>
+    <article class="insight-card"><p class="insight-kicker">06 / ARCHITECTURE PERSPECTIVE</p><h3>Enterprise Data Modeling for Analytics Platforms</h3><p>Dimensional modeling, Fact/Dimension patterns and Star Schema design for enterprise analytics.</p><div class="insight-meta"><span>Data Modeling · Delta Lake · SQL</span><a href="articles/enterprise-data-modeling.html">Read more <span aria-hidden="true">→</span></a></div></article>
+  </div>
+</section>
 
-  </footer>
-
-  <!-- Scroll Top -->
-  <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
-
-  <!-- Preloader -->
-  <div id="preloader"></div>
-
-  <!-- Vendor JS Files -->
-  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-  <script src="assets/vendor/php-email-form/validate.js"></script>
-  <script src="assets/vendor/aos/aos.js"></script>
-  <script src="assets/vendor/typed.js/typed.umd.js"></script>
-  <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
-  <script src="assets/vendor/waypoints/noframework.waypoints.js"></script>
-  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
-  <script src="assets/vendor/imagesloaded/imagesloaded.pkgd.min.js"></script>
-  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
-  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
-
-  <!-- Main JS File -->
-  <script src="assets/js/main.js"></script>
-
+<section class="contact-section" id="contact"><div class="section-shell contact-inner"><div><p class="eyebrow">LET'S CONNECT</p><h2>Building the next generation of data platforms?</h2><p>Open to conversations about enterprise data architecture, platform modernization and technical leadership.</p></div><div class="contact-actions"><a class="button primary" href="mailto:vinothbabuog@gmail.com">Get in touch →</a><a class="button secondary" href="assets/documents/Vinoth_Babu_Data_Architect_Resume.pdf" target="_blank" rel="noopener">Download Resume ↓</a></div></div></section>
+</main>
+<footer class="footer"><div class="section-shell"><span>© <span id="year"></span> Vinoth Babu O G</span><span>Enterprise Data Architect · Azure · Databricks · Lakehouse</span><a href="#home">Back to top ↑</a></div></footer>
+<script src="assets/js/main.js"></script>
 </body>
-
 </html>
