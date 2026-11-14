@@ -1,0 +1,25 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="A practical perspective on dimensional modeling, Fact/Dimension patterns and Star Schema design for consistent enterprise analytics.">
+  <title>Enterprise Data Modeling for Analytics Platforms | Vinoth Babu O G</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../assets/css/style.css">
+</head>
+<body class="article-page">
+  <main class="article-main">
+    <a class="article-back" href="../index.html#insights">← Back to Technical Insights</a>
+    <p class="article-eyebrow">06 / ARCHITECTURE PERSPECTIVE · DATA MODELING</p>
+    <h1>Enterprise Data Modeling for Analytics Platforms</h1>
+    <p class="article-lead">A practical perspective on dimensional modeling, Fact/Dimension patterns and Star Schema design for consistent enterprise analytics.</p>
+    <div class="article-tags"><span>Conceptual Modeling</span><span>Dimensional Modeling</span><span>Fact &amp; Dimension</span><span>Star Schema</span><span>Delta Lake</span></div>
+    <section class="article-flow-wrap"><h2>Architecture flow</h2><div class="article-flow"><div class="article-flow-step"><span>01</span><b>Business process</b></div><div class="article-flow-step"><span>02</span><b>Conceptual model</b></div><div class="article-flow-step"><span>03</span><b>Logical model</b></div><div class="article-flow-step"><span>04</span><b>Fact &amp; dimension design</b></div><div class="article-flow-step"><span>05</span><b>Physical implementation</b></div><div class="article-flow-step"><span>06</span><b>Analytics &amp; BI</b></div></div></section>
+    <div class="article-content"><section class="article-section"><h2>Why modeling matters</h2><p>Enterprise analytics needs consistent definitions of business events, measures and descriptive context. A shared model helps reduce conflicting metric definitions across reports and analytical consumers.</p></section><section class="article-section"><h2>From business concepts to structures</h2><p>A modeling process starts with business processes and the questions consumers need to answer. Conceptual models describe key business concepts and relationships; logical models refine entities and relationships; physical models map them to implementable structures.</p></section><section class="article-section"><h2>Fact and dimension design</h2><p>Dimensional models organize measurable business events in fact tables and descriptive context in dimension tables. Defining the grain—the meaning of one fact row—is a foundational design decision. Conformed dimensions and documented measures help maintain consistency across subject areas.</p></section><section class="article-section"><h2>Star Schema and historical context</h2><p>Star Schema patterns organize facts around descriptive dimensions for analytical querying. Surrogate keys and Slowly Changing Dimension techniques can be selected where historical context needs to be preserved; the appropriate approach depends on the business history requirements.</p></section><section class="article-section"><h2>Lakehouse implementation context</h2><p>The résumé describes ACID-compliant Delta Lake lakehouses and dimensional data models using Fact/Dimension and Star Schema patterns to support near-real-time analytics and enterprise BI reporting.</p></section><section class="article-section"><h2>Architect’s takeaway</h2><p>Modeling is an architecture discipline that connects business meaning to storage and consumption. Begin with business process and grain, then define facts, dimensions, history handling and shared metrics.</p></section>
+      <div class="article-callout"><p><strong>Scope note:</strong> The portfolio owner’s résumé supports experience with Delta Lake, Fact/Dimension modeling and Star Schema. The conceptual flow above is an explanatory model pattern, not a diagram of a specific confidential schema.</p></div>
+    </div>
+    <div class="article-footer"><a href="../index.html#projects">Explore featured projects →</a><a href="../index.html#contact">Discuss an architecture challenge →</a></div>
+  </main>
+</body>
+</html>
